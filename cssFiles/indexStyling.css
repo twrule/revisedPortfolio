@@ -1,0 +1,73 @@
+@media only screen and (max-width: 500px) {
+  body {
+    font-family: 'Raleway', sans-serif;
+
+    background: url(../media/turtleneckMobile.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+
+@media only screen and (min-width: 501px) {
+  body {
+    font-family: 'Raleway', sans-serif;
+
+    background: url(../media/turtleNeck4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+
+#pageContent{
+	display: inline-block;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left: 2%;
+}
+
+#leftContent{
+	float: left;
+	width: 52%;
+	position: relative;
+	margin-bottom: 7%;
+}
+
+#rightContent{
+	bottom: 0;
+	right: 4%;
+	width: 44%;
+	text-align: right;
+	float: left;
+	position: absolute;
+}
+
+h1{
+	font-size: 3em;
+	margin-bottom: 2%;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+li{
+	height: 20px;
+	padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+}
