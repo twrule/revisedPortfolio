@@ -34,6 +34,7 @@
     #pageContent {
         margin-top: 25%;
         color: white;
+        margin-bottom: 15%;
     }
 
     #leftContent {
@@ -45,7 +46,7 @@
     }
 
     footer {
-        position: fixed;
+/*        position: fixed;*/
         left: 0;
         bottom: 2%;
         width: 100%;
@@ -70,7 +71,7 @@
     /*style for each logo*/
     .fa {
         text-align: center;
-        padding-left: 20px;
+        padding-right: 20px;
         /*text-decoration: none;
         margin-left: 10px;
         padding-left: 8px;*/
