@@ -19,7 +19,7 @@
         padding: 10px;
     }
 
-    a {
+    #liveHost a {
         color: white;
         text-decoration: none;
         background-color: rgba(89, 120, 200, .8);
@@ -32,15 +32,63 @@
     }
 
     #pageContent {
-    	margin-top: 25%;
+        margin-top: 25%;
         color: white;
     }
+
     #leftContent {
-    	width: 50%;
+        width: 50%;
     }
-    #rightContent{
-    	text-align: right;
-    	right: 0;
+
+    #rightContent {
+        display: none;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 2%;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    #icons {
+        align-items: center;
+        display: inline-block;
+        font-size: 2em;
+	}
+
+    #icons a {
+        color: white;
+    }
+
+    #icons a:hover {
+        color: #dddddd;
+    }
+
+    /*style for each logo*/
+    .fa {
+        text-align: center;
+        padding-left: 20px;
+        /*text-decoration: none;
+        margin-left: 10px;
+        padding-left: 8px;*/
+    }
+
+    .fa:hover {
+        color: grey;
+        /*opacity: 0.45;*/
+    }
+
+    .fa:hover::after {
+        width: 0%;
+        opacity: 0.45;
+    }
+
+    .fa-linkedin {
+        background: #666666;
+        color: white;
     }
 
 }
@@ -54,6 +102,10 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+
+    #icons {
+        display: none;
     }
 
     h1 {
@@ -107,13 +159,13 @@
     }
 }
 
-#emailInText{
-	color: rgb(89, 120, 200);
-	background-color: rgba(255, 255, 255, .85);
-	border-radius: 3px;
+#emailInText {
+    color: rgb(89, 120, 200);
+    background-color: rgba(255, 255, 255, .85);
+    border-radius: 3px;
 }
 
-#emailInText:hover{
-	color: rgb(255, 255, 255);
-	background-color: rgb(89, 120, 200);
+#emailInText:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(89, 120, 200);
 }
